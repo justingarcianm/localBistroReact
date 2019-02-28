@@ -1,4 +1,133 @@
-* {
-margin: 0;
-padding: 0;
+/* GENERAL */
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700|Pacifico|Raleway');
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #eee;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav, footer {
+    background-color: #222;
+}
+nav li {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+}
+.navbar-dark .navbar-brand, .section-title .display-1, .styled {
+    font-family: 'Pacifico', cursive;
+}
+.navbar-dark .navbar-toggler {
+    border-color: #222;
+}
+.styled, .btn-link:hover, .social a i:hover {
+    color: rgb(226, 182, 63);
+}
+h3, .section-title, nav li {
+    font-family: 'Oswald', sans-serif;
+}
+p, li {
+    font-family: 'Raleway', sans-serif;
+}
+.parallax-1 {
+    background-image: url("https://images.pexels.com/photos/1565982/pexels-photo-1565982.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+}
+.parallax-2 {
+    background-image: url("https://images.pexels.com/photos/1268551/pexels-photo-1268551.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+}
+.parallax-3 {
+    background-image: url("https://images.pexels.com/photos/370984/pexels-photo-370984.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+}
+.parallax-4 {
+    background-image: url("https://images.pexels.com/photos/1036857/pexels-photo-1036857.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+}
+.section-title {
+    padding: 200px;
+    letter-spacing: .2em;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .8;
+}
+.section-content {
+    padding: 75px;
+}
+h3 span, .food-mobile p, .drinks-mobile p {
+    font-size: 0.5em;
+    color: #999;
+}
+ul {
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+#about {
+    font-size: 1.2rem;
+    line-height: 2em;
+}
+#about h2 {
+    font-size: 5em;
+    margin-top: 40px;
+}
+.menu, .food-mobile {
+    border-top: 3px solid #333;
+    border-right: 3px solid #333;
+    border-left: 3px solid #333;
+}
+.menu .breakfast, .menu .lunch, .menu .dinner, .menu .dessert {
+    padding: 20px;
+}
+.food-mobile, .drinks-mobile {
+    display: none;
+    line-height: 2em;
+}
+.food-mobile button, .drinks-mobile button{
+   color: #333;
+   font-family: 'Pacifico', cursive;
+   font-size: 1.5em;
+}
+.menu .row, .drinks .row {
+    padding: 20px;
+    line-height: 2em;
+}
+.drinks, .drinks-mobile {
+    border-bottom: 3px solid #333;
+    border-right: 3px solid #333;
+    border-left: 3px solid #333;
+}
+#contact {
+    height: 700px;
+}
+#contact ul {
+    padding: 10px;
+}
+#map {
+    height: 100%;
+  }
+  form {
+      width: 50%;
+      margin: auto;
+      padding: 10px;
+  }
+footer {
+  padding-top: 50px;
+}
+footer .social i {
+    font-size: 2em;
+    margin: 20px;
+    color: #eee;
+}
+footer .social {
+    text-align: right;
+}
+#copyrights {
+    text-align: left;
 }
