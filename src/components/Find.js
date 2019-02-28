@@ -1,6 +1,7 @@
 import React from 'react'
 
 class Find extends React.Component {
+
 	render() {
 		return (
 			<div>
@@ -9,8 +10,13 @@ class Find extends React.Component {
 					<h2 className="styled"> <i className="fas fa-map-marker-alt"></i></h2>
 				</header>
 
-				<section className="section-content container-fluid" id="contact">
-
+				<section className="section-content container-fluid row" id="contact">
+					<div className="col-md-6">
+						<div id="map">Map</div>
+					</div>
+					<div className="col-md-6">
+						<h2>reserve</h2>
+					</div>
 				</section>
 			</div>
 		)

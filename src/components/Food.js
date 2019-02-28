@@ -5,7 +5,9 @@ class Food extends React.Component {
 	render() {
 		return (
 			<div>
-				<h2>Food</h2>
+				<header className="parallax-2 text-center text-white section-title">
+					<h1 className="display-2">Food</h1>
+				</header>
 			</div>
 		)
 	}
