@@ -7,37 +7,38 @@ class Menu extends React.Component {
 		super()
 		this.state = {
 			loading: false,
-			menuItem: {}
+			menuData: {}
 		}
 	}
 
 	componentDidMount() {
 		this.setState({ loading: true })
 		fetch("https://raw.githubusercontent.com/justingarcianm/localbistro.github.io/master/data/menu.JSON")
-			.then(res => res.json())
+			.then(response => response.json())
 			.then(data => {
 				this.setState({
 					loading: false,
-					menuItem: data
+					menuData: data
 				})
 			})
 	}
 
 	render() {
-
+		const food = this.state.menuData.food
+		const drinks = this.state.menuData.drinks
 		return (
 			<div>
 				<header className="parallax-2 text-center text-white section-title">
 					<h1 className="display-2">Food</h1>
 				</header>
 
-				<Food {...this.state.menuItem.food} />
+				<Food {...food} />
 
 				<section className="parallax-3 text-center text-white section-title">
 					<h1 className="display-2">Drinks</h1>
 				</section>
 
-				<Drinks />
+				<Drinks {...drinks} />
 
 			</div>
 		)

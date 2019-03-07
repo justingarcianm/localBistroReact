@@ -1,4 +1,5 @@
 import React from 'react'
+import MapContainer from './Map'
 
 class Find extends React.Component {
 
@@ -12,7 +13,7 @@ class Find extends React.Component {
 
 				<section className="section-content container-fluid row" id="contact">
 					<div className="col-md-6">
-						<div id="map">Map</div>
+						<MapContainer />
 					</div>
 					<div className="col-md-6">
 						<h2>reserve</h2>

@@ -19,31 +19,6 @@
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
 
-  <!-- GOOGLE MAP API INIT -->
-  <script>
-    function initMap() {
-      var options = {
-        zoom: 12,
-        center: { lat: 35.106766, lng: -106.629181 }
-      }
-      var map = new google.maps.Map(document.getElementById("map"), options);
-
-      // add marker
-      var marker = new google.maps.Marker({
-        position: { lat: 35.083237, lng: -106.642006 },
-        map: map
-      });
-      var infoWindow = new google.maps.InfoWindow({
-        content: '<h3>Local Bistro</h3><p>22 Main Street,</p><p>ABQCity, New Mexico</p>'
-      });
-      marker.addListener("click", function () {
-        infoWindow.open(map, marker);
-      });
-    }
-  </script>
-  <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrq6kWXm4b3uo6e7wGJg3G4OB2UQfKDl8&callback=initMap"></script>
-
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
