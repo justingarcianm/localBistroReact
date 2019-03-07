@@ -1,0 +1,206 @@
+{
+	"food": {
+		"breakfast": [
+			{
+				"title": "Ham and eggs",
+				"price": 8,
+				"desc": "2 eggs cooked any style and a slice of ham topped with parsley"
+			},
+			{
+				"title": "Pancake platter",
+				"price": 10,
+				"desc": "2 buttermilk pancakes with your choice of side"
+			},
+			{
+				"title": "Rise and shine burrito",
+				"price": 7.50,
+				"desc": "eggs, your choice of meat, cheese, and chile wrapped in a flour tortilla"
+			},
+			{
+				"title": "power bowl",
+				"price": 10.50,
+				"desc": "yogurt topped with granola with a side of fruit"
+			}
+		],
+		"lunch": [
+			{
+				"title": "Local break burger",
+				"price": 12,
+				"desc": "one patty with cheese, guacamole, and chioce of chile between a sesame bun"
+			},
+			{
+				"title": "street style tacos",
+				"price": 12.50,
+				"desc": "3 tacos with the chioce of chicken, beef, or fish topped with cilantro, pico de galo, and a side of lemon"
+			},
+			{
+				"title": "Prosciutto salad",
+				"price": 12,
+				"desc": "mixed greens, sliced pears, sprinkled pecans, bleu cheese, and topped with a balsamic vinegar"
+			},
+			{
+				"title": "Choice sandwich",
+				"price": 10,
+				"desc": "choice of bread, choice of meat, choice of cheese, you get the picture"
+			}
+		],
+		"dinner": [
+			{
+				"title": "Grilled Salmon",
+				"price": 18,
+				"desc": "topped with couscous, creamy sause, and a side of asparagus"
+			},
+			{
+				"title": "Grilled Lemon Pepper Chicken",
+				"price": 13,
+				"desc": "2 chicken breasts sauteed in a lemon pepper sauce served on top of a vegetable medley"
+			},
+			{
+				"title": "Portobella Burger",
+				"price": 12,
+				"desc": "Portobella cap, melted mozzarella, tomato and basil with a ricotta spread"
+			},
+			{
+				"title": "Pasta Alfredo",
+				"price": 16,
+				"desc": "Homemade creamy Alfredo sauce and Italian sausage"
+			}
+		],
+		"dessert": [
+			{
+				"title": "Apple Crisp",
+				"price": 6,
+				"desc": "vanilla ice cream and caramel drizzle"
+			},
+			{
+				"title": "Chocolate Cream Pie Crêpes ",
+				"price": 7,
+				"desc": " Brown sugar meringue crisp, hibiscus syrup"
+			},
+			{
+				"title": "Cheese Plate Sampler",
+				"price": 10,
+				"desc": "a selection of four cheeses served in tasting portions with house-made jam and fruit garnish"
+			}
+		]
+	},
+	"drinks": {
+		"wine": [
+			{
+				"white": [
+					{
+						"title": "Chardonnay, California ",
+						"price_small": 10,
+						"price_bottle": 40
+					},
+					{
+						"title": "Pino Grigio, Oregon",
+						"price_small": 9,
+						"price_bottle": 36
+					},
+					{
+						"title": "Sauvignon Blanc, New Zeland",
+						"price_small": 11,
+						"price_bottle": 40
+					}
+				],
+				"red": [
+					{
+						"title": "Merlot, Italy",
+						"price_small": 10,
+						"price_bottle": 40
+					},
+					{
+						"title": "Malbec, Argentina",
+						"price_small": 8,
+						"price_bottle": 50
+					},
+					{
+						"title": "Cotes de Rhone Rouge, France ",
+						"price_small": 15,
+						"price_bottle": 50
+					}
+				],
+				"dessert": [
+					{
+						"title": "Rose",
+						"price_small": 12,
+						"price_bottle": 40
+					},
+					{
+						"title": "Port",
+						"price_small": 15,
+						"price_bottle": 60
+					}
+				]
+			}
+		],
+		"beer": [
+			{
+				"domestic": [
+					{
+						"title": "Budwiser",
+						"priceSmall": 3,
+						"priceLarge": 5
+					},
+					{
+						"title": "Coors Light",
+						"priceSmall": 4,
+						"priceLarge": 5
+					}
+				],
+				"imported": [
+					{
+						"title": "Stella Artois",
+						"priceSmall": 4.75,
+						"priceLarge": 6
+					},
+					{
+						"title": "Dos Equis Lager",
+						"priceSmall": 4.75,
+						"priceLarge": 6
+					},
+					{
+						"title": "Guinness",
+						"priceSmall": 6.50,
+						"priceLarge": 7
+					}
+				],
+				"local": [
+					{
+						"title": "La Cumbre Elevated IPA",
+						"priceSmall": 5.50,
+						"priceLarge": 7
+					},
+					{
+						"title": "Marble Double White",
+						"priceSmall": 6,
+						"priceLarge": 8
+					}
+				]
+			}
+		],
+		"coffee": [
+			{
+				"title": "brew",
+				"price": 2
+			},
+			{
+				"title": "espresso",
+				"price": 1.50
+			},
+			{
+				"title": "cappuccino",
+				"price": 4.50
+			},
+			{
+				"title": "Latte",
+				"price": 4.50
+			},
+			{
+				"title": "Flavored Latte",
+				"price": 5.50
+			}
+		]
+	}
+}

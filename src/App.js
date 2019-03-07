@@ -3,8 +3,7 @@ import './App.css';
 import Nav from './components/Nav'
 import Header from './components/Header'
 import About from './components/About'
-import Food from './components/Food'
-import Drinks from './components/Drinks'
+import Menu from './components/Menu'
 import Find from './components/Find'
 import Footer from './components/Footer'
 
@@ -15,8 +14,7 @@ class App extends Component {
         <Nav />
         <Header />
         <About />
-        <Food />
-        <Drinks />
+        <Menu />
         <Find />
         <Footer />
       </div>

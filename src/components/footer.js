@@ -20,10 +20,10 @@ class Footer extends React.Component {
 						<p>&copy; Local Bistro 2019. All rights reserved</p>
 					</div>
 					<div className="social col-sm">
-						<a href="#"><i className="fab fa-facebook-square"></i></a>
-						<a href="#"><i className="fab fa-twitter-square"></i></a>
-						<a href="#"><i className="fab fa-instagram"></i></a>
-						<a href="#"><i className="fab fa-linkedin"></i></a>
+						<a href="#home"><i className="fab fa-facebook-square"></i></a>
+						<a href="#home"><i className="fab fa-twitter-square"></i></a>
+						<a href="#home"><i className="fab fa-instagram"></i></a>
+						<a href="#home"><i className="fab fa-linkedin"></i></a>
 					</div>
 
 				</div>
