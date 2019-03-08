@@ -18,7 +18,7 @@ class About extends React.Component {
 							repudiandae quod quasi, reprehenderit, explicabo natus provident illum facilis veniam cumque
 							saepe quos vitae, eveniet reiciendis. Expedita illo, labore nesciunt saepe eligendi sed earum
                         quaerat asperiores!</p>
-						<h2 className="styled"><i className="fas fa-store"></i></h2>
+						<h2 className="styled d-none d-md-block"><i className="fas fa-store "></i></h2>
 					</div>
 				</div>
 				<br />
@@ -31,7 +31,7 @@ class About extends React.Component {
 							repudiandae quod quasi, reprehenderit, explicabo natus provident illum facilis veniam cumque
 							saepe quos vitae, eveniet reiciendis. Expedita illo, labore nesciunt saepe eligendi sed earum
                         quaerat asperiores!</p>
-						<h2 className="styled"><i className="fas fa-carrot"></i></h2>
+						<h2 className="styled d-none d-md-block"><i className="fas fa-carrot "></i></h2>
 					</div>
 					<div className="col-md">
 						<img src="https://images.pexels.com/photos/594060/pexels-photo-594060.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"

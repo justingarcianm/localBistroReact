@@ -6,37 +6,62 @@ class Drinks extends React.Component {
 			<div className="text-center container-fluid menu">
 				<div className="menu-bottom">
 					<div className="row">
-						<div className="col">
+						<div className="col-md-6 col-sm-12">
 							<h3>Wine</h3>
 							<div className="row">
-								<div className="col">
+								<div className="col-md-4 col-sm-12">
 									<h4>White</h4>
-									<p>name - price/price</p>
+									<ul>
+										<li>name - price/price</li>
+										<li>name - price/price</li>
+										<li>name - price/price</li>
+									</ul>
+
 								</div>
-								<div className="col">
+								<div className="col-md-4 col-sm-12">
 									<h4>Red</h4>
-									<p>name - price/price</p>
+									<ul>
+										<li>name - price/price</li>
+										<li>name - price/price</li>
+										<li>name - price/price</li>
+									</ul>
 								</div>
-								<div className="col">
+								<div className="col-md-4 col-sm-12">
 									<h4>Dessert</h4>
-									<p>name - price/price</p>
+									<ul>
+										<li>name - price/price</li>
+										<li>name - price/price</li>
+										<li>name - price/price</li>
+									</ul>
 								</div>
 							</div>
 						</div>
-						<div className="col">
+						<div className="col-md-6 col-sm-12">
 							<h3>Beer</h3>
 							<div className="row">
-								<div className="col">
+								<div className="col-md-4 col-sm-12">
 									<h4>Domestic</h4>
-									<p>name - price/price</p>
+									<ul>
+										<li>name - price/price</li>
+										<li>name - price/price</li>
+										<li>name - price/price</li>
+									</ul>
 								</div>
-								<div className="col">
+								<div className="col-md-4 col-sm-12">
 									<h4>Local</h4>
-									<p>name - price/price</p>
+									<ul>
+										<li>name - price/price</li>
+										<li>name - price/price</li>
+										<li>name - price/price</li>
+									</ul>
 								</div>
-								<div className="col">
+								<div className="col-md-4 col-sm-12">
 									<h4>Imported</h4>
-									<p>name - price/price</p>
+									<ul>
+										<li>name - price/price</li>
+										<li>name - price/price</li>
+										<li>name - price/price</li>
+									</ul>
 								</div>
 							</div>
 						</div>
@@ -44,7 +69,11 @@ class Drinks extends React.Component {
 					<div className="row">
 						<div className="col-sm-12">
 							<h3>Coffee</h3>
-							<p>name - price</p>
+							<ul>
+								<li>name - price</li>
+								<li>name - price</li>
+								<li>name - price</li>
+							</ul>
 						</div>
 					</div>
 				</div>
