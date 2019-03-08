@@ -16,7 +16,7 @@ class Find extends React.Component {
 						<MapContainer />
 					</div>
 					<div className="col-md-6">
-						<h2>reserve</h2>
+						<h2>reserve your table</h2>
 					</div>
 				</section>
 			</div>
