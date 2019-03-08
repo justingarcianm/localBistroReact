@@ -47,8 +47,15 @@ p, li {
 .parallax-4 {
     background-image: url("https://images.pexels.com/photos/1036857/pexels-photo-1036857.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
 }
+.display-1 {
+    padding-top: 200px;
+}
+.display-2 {
+    padding: 200px 50px;
+}
 .section-title {
-    padding: 200px;
+    padding:20px;
+    height: 100%;
     letter-spacing: .2em;
     background-attachment: fixed;
     background-position: center;
@@ -59,7 +66,7 @@ p, li {
 .section-content {
     padding: 75px;
 }
-h3 span, .food-mobile p, .drinks-mobile p {
+h3 span {
     font-size: 0.5em;
     color: #999;
 }
@@ -77,31 +84,20 @@ li {
     font-size: 5em;
     margin-top: 40px;
 }
-.menu, .food-mobile {
-    border-top: 3px solid #333;
-    border-right: 3px solid #333;
-    border-left: 3px solid #333;
+.menu {
+    padding: 30px;
 }
-.menu .breakfast, .menu .lunch, .menu .dinner, .menu .dessert {
+.menu-top {
     padding: 20px;
+    border-top: #222 solid 5px;
+    border-left: #222 solid 5px;
+    border-right: #222 solid 5px;
 }
-.food-mobile, .drinks-mobile {
-    display: none;
-    line-height: 2em;
-}
-.food-mobile button, .drinks-mobile button{
-   color: #333;
-   font-family: 'Pacifico', cursive;
-   font-size: 1.5em;
-}
-.menu .row, .drinks .row {
+.menu-bottom {
     padding: 20px;
-    line-height: 2em;
-}
-.drinks, .drinks-mobile {
-    border-bottom: 3px solid #333;
-    border-right: 3px solid #333;
-    border-left: 3px solid #333;
+    border-bottom: #222 solid 5px;
+    border-left: #222 solid 5px;
+    border-right: #222 solid 5px;
 }
 #contact {
     height: 700px;
@@ -109,14 +105,7 @@ li {
 #contact ul {
     padding: 10px;
 }
-#map {
-    height: 100%;
-  }
-  form {
-      width: 50%;
-      margin: auto;
-      padding: 10px;
-  }
+
 footer {
   padding-top: 50px;
 }

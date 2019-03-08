@@ -6,7 +6,7 @@ class Footer extends React.Component {
 		return (
 			<footer className="text-light text-center container-fluid">
 				<div className="row">
-					<div className="col-12">
+					<div className="col-sm-12">
 						<h3 className="styled">Local Bistro</h3>
 						<p>22 Main Street, ABQCity, New Mexico </p>
 						<p><span>RESERVATIONS NUMBER:</span> +00 25 854 78521 </p>
