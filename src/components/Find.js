@@ -1,5 +1,5 @@
 import React from 'react'
-import MapContainer from './Map'
+import MapContainer from './MapContainer'
 
 class Find extends React.Component {
 
