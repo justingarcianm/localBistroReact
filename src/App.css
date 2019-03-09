@@ -6,7 +6,6 @@ html {
 body {
     margin: 0;
     padding: 0;
-    height: 100%;
     background-color: #eee;
     color: #333;
     font-family: Arial, Helvetica, sans-serif;
@@ -53,7 +52,6 @@ p, li {
 }
 .section-title {
     padding:20px;
-    height: 100%;
     letter-spacing: .2em;
     background-attachment: fixed;
     background-position: center;
@@ -64,10 +62,7 @@ p, li {
 .section-content {
     padding: 75px;
 }
-h3 span {
-    font-size: 0.5em;
-    color: #999;
-}
+
 ul {
     padding: 0;
 }
@@ -100,10 +95,6 @@ li {
 #contact {
     height: 700px;
 }
-#contact ul {
-    padding: 10px;
-}
-
 footer {
   padding-top: 50px;
 }
@@ -111,10 +102,4 @@ footer .social i {
     font-size: 2em;
     margin: 20px;
     color: #eee;
-}
-footer .social {
-    text-align: right;
-}
-#copyrights {
-    text-align: left;
 }
