@@ -1,5 +1,6 @@
 import React from 'react'
 import MapContainer from './MapContainer'
+import Reservations from './Reservations'
 
 class Find extends React.Component {
 
@@ -16,7 +17,7 @@ class Find extends React.Component {
 						<MapContainer />
 					</div>
 					<div className="col-md-6">
-						<h2>reserve your table</h2>
+						<Reservations />
 					</div>
 				</section>
 			</div>
