@@ -8,17 +8,19 @@ class Reservations extends React.Component {
 
 	render() {
 		return (
-			<div className="text-center">
-				<h2>Reserve Today!</h2>
+			<div>
+				<h2 className="text-center">Reserve Today!</h2>
 				<form>
 					<div className="form-group">
+						<label>Who is the reservation for?</label>
 						<input type="text" placeholder="name" class="form-control" />
 					</div>
 					<div className="form-group">
+						<label>Where should the confirmation be sent?</label>
 						<input type="email" placeholder="email" class="form-control" />
 					</div>
 					<div class="form-group">
-						<label className="styled">When</label>
+						<label>What day and time?</label>
 						<div className="row">
 							<div className="col-sm-4">
 								<Calendar />
@@ -44,7 +46,7 @@ class Reservations extends React.Component {
 								</select>
 							</div>
 						</div>
-						<label className="styled">Who</label>
+						<label>How many guests will be joining?</label>
 						<select class="form-control">
 							<option>--Select number of guests--</option>
 							<option>1</option>
