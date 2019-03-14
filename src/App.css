@@ -19,17 +19,21 @@ nav li {
     font-size: 1.5em;
     letter-spacing: 0.1em;
 }
-.navbar-dark .navbar-brand, .section-title .display-1, .styled, .menu h3, #contact h2{
+.navbar-dark .navbar-brand, .section-title .display-1, .styled, #contact h2{
     font-family: 'Pacifico', cursive;
 }
 .navbar-dark .navbar-toggler {
     border-color: #222;
 }
-.styled, .btn-link:hover, .social a i:hover, .menu h3, #contact h2 {
+.styled, .btn-link:hover, .social a i:hover, #contact h2 {
     color: rgb(226, 182, 63);
 }
-h3, .section-title, nav li {
+h3, .section-title, nav li, .menu h2 {
     font-family: 'Oswald', sans-serif;
+}
+.menu h2 span {
+    font-size: .4em;
+    color: #999
 }
 p, li {
     font-family: 'Raleway', sans-serif;
