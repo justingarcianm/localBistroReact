@@ -19,7 +19,7 @@ class Calendar extends React.Component {
 	render() {
 		return (
 			<div className="form-group">
-				<DatePicker
+				Day: <DatePicker
 					selected={this.state.startDate}
 					onChange={this.handleChange}
 				/>

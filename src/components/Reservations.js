@@ -21,7 +21,7 @@ class Reservations extends React.Component {
 						<label className="styled">When:</label>
 						<div class="form-control">
 							<Calendar />
-							Time: <input type="time" step="10" min="8:00" max="18:00" required />
+							Time (hr:mm AM/PM):	<input type="time" min="8:00" max="18:00" required />
 						</div>
 
 					</div>
