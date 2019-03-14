@@ -8,8 +8,8 @@ class Find extends React.Component {
 		return (
 			<div>
 				<header className="parallax-4 text-center text-white section-title">
-					<h1 className="display-2">Contact and Find Us</h1>
-					<h2 className="styled"> <i className="fas fa-map-marker-alt"></i></h2>
+					<h1 className="display-2">Join Us</h1>
+
 				</header>
 
 				<section className="section-content container-fluid row" id="contact">

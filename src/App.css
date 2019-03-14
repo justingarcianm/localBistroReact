@@ -19,13 +19,13 @@ nav li {
     font-size: 1.5em;
     letter-spacing: 0.1em;
 }
-.navbar-dark .navbar-brand, .section-title .display-1, .styled, .menu h3 {
+.navbar-dark .navbar-brand, .section-title .display-1, .styled, .menu h3, #contact h2{
     font-family: 'Pacifico', cursive;
 }
 .navbar-dark .navbar-toggler {
     border-color: #222;
 }
-.styled, .btn-link:hover, .social a i:hover, .menu h3 {
+.styled, .btn-link:hover, .social a i:hover, .menu h3, #contact h2 {
     color: rgb(226, 182, 63);
 }
 h3, .section-title, nav li {
@@ -93,7 +93,19 @@ li {
     border-right: #222 solid 5px;
 }
 #contact {
-    height: 700px;
+    height: 100%;
+}
+
+form {
+    margin: 10px;
+    padding: 20px;
+    background-color: #444;
+    border-radius: 10px;
+}
+.form-button {
+    background-color: rgb(226, 182, 63);
+    color: #eee;
+    font-family: 'Pacifico', cursive;
 }
 footer {
   padding-top: 50px;
