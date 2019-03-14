@@ -3,6 +3,8 @@ import DatePicker from 'react-datepicker'
 import "react-datepicker/dist/react-datepicker.css";
 
 class Calendar extends React.Component {
+
+
 	constructor(props) {
 		super(props)
 		this.state = {
@@ -19,7 +21,7 @@ class Calendar extends React.Component {
 	render() {
 		return (
 			<div className="form-group">
-				Day: <DatePicker
+				<DatePicker
 					selected={this.state.startDate}
 					onChange={this.handleChange}
 				/>

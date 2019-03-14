@@ -97,11 +97,12 @@ li {
 }
 
 form {
-    margin: 10px;
+    margin: 20px;
     padding: 20px;
     background-color: #444;
     border-radius: 10px;
 }
+
 .form-button {
     background-color: rgb(226, 182, 63);
     color: #eee;
