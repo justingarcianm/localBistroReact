@@ -113,7 +113,7 @@ export class CurrentLocation extends React.Component {
 				{this.renderChildren()}
 
 				<div className="d-none d-sm-block d-md-none text-center mobile-map-text">
-					<a href="google.com">Click me for directions!</a>
+					<a href="https://www.google.com/maps/place/35%C2%B004'59.7%22N+106%C2%B038'31.2%22W/@35.083237,-106.6441947,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d35.083237!4d-106.642006" target="_blank" rel="noopener noreferrer">Click me for directions!</a>
 
 				</div>
 			</div>
