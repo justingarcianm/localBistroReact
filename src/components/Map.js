@@ -8,6 +8,7 @@ const mapStyles = {
 		width: '100%',
 		height: '100%'
 	}
+
 };
 export class CurrentLocation extends React.Component {
 	constructor(props) {
@@ -106,10 +107,15 @@ export class CurrentLocation extends React.Component {
 
 		return (
 			<div>
-				<div style={style} ref="map">
+				<div style={style} ref="map" className="d-sm-none d-md-block">
 					Loading map...
 	</div>
 				{this.renderChildren()}
+
+				<div className="d-none d-sm-block d-md-none text-center mobile-map-text">
+					<a href="google.com">Click me for directions!</a>
+
+				</div>
 			</div>
 		);
 	}
