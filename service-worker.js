@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/localBistroReact/precache-manifest.3b9990182f6cf3decd70fc5d3bf84f94.js"
+  "/localbistroreact/precache-manifest.7dff34201286a80b9fad6b9097bdfe91.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/localBistroReact/index.html", {
+workbox.routing.registerNavigationRoute("/localbistroreact/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
